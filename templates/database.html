@@ -1,0 +1,20 @@
+<html>
+<body>
+<table>
+<tr>
+<th>firstName</th>
+<th>lastName</th>
+<th>studentID</th>
+<th>phoneNumber</th>
+</tr>
+{% for item in data %}
+<tr>
+    <td>{{item.firstname}}</td>
+    <td>{{item.lastname}}</td>
+    <td>{{item.studentid}}</td>
+    <td>{{item.phonenumber}}</td>
+</tr>
+{% endfor %}
+</table>
+</body>
+</html>
